@@ -1,0 +1,225 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "address": "456 this Avenue",
+            "squareFootage": 5000,
+            "availableProductId": 1
+        },
+        {
+            "id": 2,
+            "address": "456 Retail Avenue",
+            "squareFootage": 5000,
+            "availableProductId": 2
+        },
+        {
+            "id": 3,
+            "address": "789 Corporate Road",
+            "squareFootage": 3000,
+            "availableProductId": 3
+        },
+        {
+            "id": 4,
+            "address": "321 Data Center Drive",
+            "squareFootage": 20000,
+            "availableProductId": 4
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "userId": 1,
+            "loyaltyNumber": 123456
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "loyaltyNumber": 654321
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "loyaltyNumber": 987654
+        },
+        {
+            "id": 4,
+            "userId": 4,
+            "loyaltyNumber": 789012
+        },
+        {
+            "id": 5,
+            "userId": 5,
+            "loyaltyNumber": 345678
+        },
+        {
+            "id": 6,
+            "userId": 6,
+            "loyaltyNumber": 890123
+        },
+        {
+            "id": 7,
+            "userId": 7,
+            "loyaltyNumber": 567890
+        },
+        {
+            "id": 8,
+            "userId": 8,
+            "loyaltyNumber": 432109
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "userId": 1,
+            "startDate": 1630444800,
+            "payRate": 15,
+            "storeId": 1
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "startDate": 1633027200,
+            "payRate": 18,
+            "storeId": 2
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "startDate": 1635705600,
+            "payRate": 20,
+            "storeId": 1
+        },
+        {
+            "id": 4,
+            "userId": 4,
+            "startDate": 1638297600,
+            "payRate": 16,
+            "storeId": 3
+        },
+        {
+            "id": 5,
+            "userId": 5,
+            "startDate": 1640976000,
+            "payRate": 17,
+            "storeId": 2
+        },
+        {
+            "id": 6,
+            "userId": 6,
+            "startDate": 1643654400,
+            "payRate": 19,
+            "storeId": 3
+        },
+        {
+            "id": 7,
+            "userId": 7,
+            "startDate": 1646083200,
+            "payRate": 22,
+            "storeId": 1
+        },
+        {
+            "id": 8,
+            "userId": 8,
+            "startDate": 1648761600,
+            "payRate": 21,
+            "storeId": 2
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "isStaff": false
+        },
+        {
+            "id": 2,
+            "name": "Alice Smith",
+            "email": "alice.smith@example.com",
+            "isStaff": true
+        },
+        {
+            "id": 3,
+            "name": "David Johnson",
+            "email": "david.johnson@example.com",
+            "isStaff": false
+        },
+        {
+            "id": 4,
+            "name": "Emily Davis",
+            "email": "emily.davis@example.com",
+            "isStaff": false
+        },
+        {
+            "id": 5,
+            "name": "Michael Wilson",
+            "email": "michael.wilson@example.com",
+            "isStaff": true
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Chocolate Bar",
+            "productTypeId": 1,
+            "pricePerUnit": 1
+        },
+        {
+            "id": 2,
+            "name": "Gummy Bears",
+            "productTypeId": 2,
+            "pricePerUnit": 2
+        },
+        {
+            "id": 3,
+            "name": "Sour Patch Kids",
+            "productTypeId": 3,
+            "pricePerUnit": 2
+        },
+        {
+            "id": 4,
+            "name": "Lollipop",
+            "productTypeId": 4,
+            "pricePerUnit": 1
+        },
+        {
+            "id": 5,
+            "name": "Jelly Beans",
+            "productTypeId": 5,
+            "pricePerUnit": 3
+        },
+        {
+            "id": 6,
+            "name": "Jolly Rancher",
+            "productTypeId": 6,
+            "pricePerUnit": 1
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "Chocolate"
+        },
+        {
+            "id": 2,
+            "type": "Gummy Bears"
+        },
+        {
+            "id": 3,
+            "type": "Sour Patch Kids"
+        },
+        {
+            "id": 4,
+            "type": "Lollipop"
+        },
+        {
+            "id": 5,
+            "type": "Jelly Beans"
+        },
+        {
+            "id": 6,
+            "type": "Hard Candy"
+        }
+    ],
+    "purchases": []
+}
